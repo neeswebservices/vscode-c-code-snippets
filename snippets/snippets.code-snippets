@@ -1,0 +1,17 @@
+{
+	"Standard input output": {
+		"prefix": "std",
+		"description": "Inputs the stdio file.",
+		"body": ["#include <stdio.h>"]
+	},
+	"Conio prefix": {
+		"prefix": "conio",
+		"description": "Inputs the conio file.",
+		"body": ["#include <conio.h>"]
+	},
+	"Math library": {
+		"prefix": "math",
+		"description": "Inputs the math library.",
+		"body": ["#include <math.h>"]
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"name": "c-snippets",
+	"displayName": "C Snippets",
+	"description": "Simple C snippets generator.",
+	"version": "1.0.0",
+	"publisher": "nees web services",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/neeswebservices/vscode-c-code-snippets.git"
+	},
+	"icon": "./assets/cicon.png",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "c",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	}
+}
